@@ -1,0 +1,17 @@
+{% extends "wrapper/wrapper.html" %}
+{% block title %}Adjective{% endblock %}
+{% block judul %}Adjective{% endblock %}
+
+{% block content %}
+    {% if data %}
+        {% for d in data %}
+            <div class="main-items">
+                <div class="item">{{ d["english"] }}</div>
+                <div class="item">{{ d["bahasa"] }}</div>
+                <a href="/adjective/detail/{{ d['english'] }}"><div class="detail">detail</div></a>
+            </div>
+        {% endfor %}
+    {% else %}
+            <h1 style="color: Black;">DATA KOSONG</h1>
+    {% endif %}
+{% endblock %}

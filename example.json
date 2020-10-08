@@ -1,0 +1,115 @@
+{
+    "adjective" : [
+        {
+            "english": "other",
+            "bahasa" : "lain",
+            "example": "",
+            "explanation": ""
+        },
+        {
+            "english": "new",
+            "bahasa" : "baru",
+            "example": "",
+            "explanation": ""
+        },
+        {
+            "english": "only",
+            "bahasa" : "hanya",
+            "example": "",
+            "explanation": ""
+        },
+        {
+            "english": "good",
+            "bahasa" : "bagus, hebat",
+            "example": "",
+            "explanation": ""
+        },
+        {
+            "english": "bad",
+            "bahasa" : "jelek, buruk",
+            "example": "",
+            "explanation": ""
+        },
+        {
+            "english": "high",
+            "bahasa" : "tinggi",
+            "example": "",
+            "explanation": ""
+        },
+        {
+            "english": "different",
+            "bahasa" : "berbeda",
+            "example": "",
+            "explanation": ""
+        },
+        {
+            "english": "big",
+            "bahasa" : "besat",
+            "example": "",
+            "explanation": ""
+        },
+        {
+            "english": "small",
+            "bahasa" : "kecil",
+            "example": "",
+            "explanation": ""
+        }
+    ],
+
+    "noun": [
+        {
+            "english": "data",
+            "bahasa": "data",
+            "example": "",
+            "explanation": ""
+        },
+        {
+            "english": "name",
+            "bahasa": "nama",
+            "example": "",
+            "explanation": ""
+        },
+        {
+            "english": "chair",
+            "bahasa": "kursi",
+            "example": "",
+            "explanation": ""
+        },
+        {
+            "english": "food",
+            "bahasa": "makanan",
+            "example": "",
+            "explanation": ""
+        },
+        {
+            "english": "country",
+            "bahasa": "negara",
+            "example": "",
+            "explanation": ""
+        },
+        {
+            "english": "body",
+            "bahasa": "badan",
+            "example": "",
+            "explanation": ""
+        },
+        {
+            "english": "head",
+            "bahasa": "kepala",
+            "example": "",
+            "explanation": ""
+        },
+        {
+            "english": "house",
+            "bahasa": "rumah",
+            "example": "",
+            "explanation": ""
+        },
+        {
+            "english": "plate",
+            "bahasa": "piring",
+            "example": "",
+            "explanation": ""
+        }
+    ]
+}

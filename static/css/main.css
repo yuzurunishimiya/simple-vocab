@@ -1,0 +1,174 @@
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background: url('../images/yuzuru.jpg') no-repeat fixed;
+    margin: 0;
+}
+
+#wrapper {
+    position: fixed;
+    top: 0;
+    margin: 0 0;
+    height: 100%;
+    width: 100%;
+    z-index: -10;
+    background-color: rgba(200, 100, 200, 0.2);
+}
+#container {
+    border: 1px black solid;
+    border-radius: 15px;
+    background-color: rgba(233, 198, 222, 0.75);
+    margin: 2.5% 20%;
+    min-height: 90vh;
+    padding: 20px;
+    word-wrap: break-word;
+}
+#judul {
+    text-align: center;
+}
+#judul .title {
+    display: inline-block;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 3%;
+    color: rgb(220, 20, 107);
+    border-bottom: 2px solid rgb(220, 20, 107);
+    
+}
+
+#content {
+    padding: 4%;
+    margin: 4%;
+    margin-top: 0px;
+    width: auto;
+    text-align: center;
+}
+
+#index-wrapper {
+    display: inline-block;
+    margin: 5% 10%;
+    padding: 20px;
+}
+
+.main-wrapper {
+    height: 300px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: [col1-start] 200px  [col2-start] 200px  [col3-start] 200px [col3-end];
+    grid-template-rows: [row1-start] auto [row2-start] auto [row2-end];
+    /* background-color: pink; */
+    color: #444;
+}
+
+.box {
+    background-color: rgba(247, 247, 247, 0.1);
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+}
+
+.main-a {
+    grid-column: col1-start / col3-start;
+    grid-row: row1-start ;
+}
+.main-b {
+    grid-column: col3-start ;
+    grid-row: row1-start / row2-end;
+}
+.main-c {
+    grid-column: col1-start;
+    grid-row: row2-start ;
+}
+.main-d {
+    grid-column: col2-start ;
+    grid-row: row2-start ;
+}
+
+.btn-a {
+    display: flex;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(253, 70, 183, 0.9);
+    border-radius: 2.5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.index-a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-items {
+    margin-top: 2.5%;
+    margin-bottom: 0.5% ;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: rgb(231, 161 , 167);
+    padding: 20px 30px;
+}
+.main-items {
+    display: flex;
+    flex-shrink: 0;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+.main-items .item {
+    flex: 1;
+    text-align: justify;
+    border-radius: 10px;
+    background-color: rgb(231, 161 , 167);
+    padding: 10px 20px;
+    margin: 5px 2px;
+}
+
+.main-items a {
+    text-decoration: none;
+    color: #3c1053ff;
+}
+
+.main-items .detail {
+    flex: 0.2;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(231, 161 , 167);
+    padding: 5px;
+    margin: 5px 2px;
+}
+
+.main-items .detail:hover {
+    background-color: pink;
+}
+
+@media screen and (max-width: 599px) {
+    #content {
+        margin: 0;
+        padding: 1%;
+    }
+    .container {
+        margin: 2.5% 3%;
+    }
+    .item {
+        padding: 10px 6px;
+        text-align: center;
+        margin: 2.5px 2px;
+    }
+    body {
+        background: url('static/images/mobile_yuzuru.jpg') no-repeat fixed;
+    }
+}
+@media screen
+and (max-width: 1000px)
+and (min-width: 600px)
+{
+    .container {
+        margin: 2.5% 8%;
+    }
+    body {
+        background: url('static/images/yuzuru.jpg') no-repeat right fixed;
+    }
+}
