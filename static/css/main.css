@@ -114,8 +114,7 @@ body {
 .main-items {
     display: flex;
     flex-shrink: 0;
-    overflow: scroll;
-    scrollbar-width: none;
+    /* scrollbar-width: none; */
 }
 .main-items .item {
     flex: 1;

@@ -1,7 +1,7 @@
 from flask import Blueprint, render_template, jsonify
 from helper import dbs
 
-db_adj = dbs["adjective"]
+db_adj = dbs["adjectives"]
 
 adjective_bp = Blueprint("adjective", __name__)
 
